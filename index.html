@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+
+  <h1 class="title">SimpleBoard</h1> <!-- New title -->
+
+  <div class="title-buttons">
+    <div class="new-task">
+      <input type="text" id="newTaskInput" placeholder="Enter task">
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+
+    <div class="filter-tasks">
+      <input type="text" id="filterInput" placeholder="Filter by tag">
+      <button id="filterBtn">Filter</button>
+    </div>
+  </div>
+
+  <div class="board">
+
+    <div class="column" id="todo">
+      <h2>To Do</h2>
+      <div class="cards"></div>
+    </div>
+
+    <div class="column" id="inprogress">
+      <h2>In Progress</h2>
+      <div class="cards"></div>
+    </div>
+
+    <div class="column" id="done">
+      <h2>Done</h2>
+      <div class="cards"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

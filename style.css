@@ -1,0 +1,70 @@
+/* Styles for the title */
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0; /* Adjust margin for spacing */
+  }
+  
+  /* Styles for the title buttons */
+  .title-buttons {
+    display: flex;
+    flex-direction: column; /* Stack the buttons vertically */
+    align-items: center; /* Center align the buttons */
+    margin: 20px 0; /* Adjust margin for spacing */
+  }
+  
+  /* Styles for the Add Task and Filter buttons */
+  .new-task,
+  .filter-tasks {
+    margin: 10px 0; /* Add spacing between the buttons */
+  }
+  
+  /* Styles for the columns and tasks */
+  .board {
+    display: flex;
+    justify-content: space-around; /* Distribute columns evenly */
+  }
+  
+  .column {
+    flex: 1; /* Equal width for all columns */
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    min-height: 300px;
+  }
+  
+  /* Styles for the "Done" column to match the others */
+  #done {
+    background-color: #f9f9f9; /* Match the background color */
+    border: 1px solid #ccc; /* Add border to match the others */
+  }
+  
+  .task {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Styles for the task name */
+  .task-name {
+    margin: 0; /* Remove default margin to align text properly */
+    font-weight: bold; /* Make the task name bold */
+  }
+  
+  /* Styles for tags */
+  .tags {
+    margin-top: 5px; /* Add spacing between task name and tags */
+  }
+  
+  .tag {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 3px 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+  }
+  
