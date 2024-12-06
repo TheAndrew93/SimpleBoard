@@ -60,14 +60,6 @@ SimpleBoard is a minimalist and aesthetically pleasing Kanban board designed for
 
 Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality or aesthetics of SimpleBoard.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Contact
-
-For questions or suggestions, please reach out to [your email address].
-
 ---
 
 Enjoy your organized and efficient task management with SimpleBoard!
