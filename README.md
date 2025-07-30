@@ -1,3 +1,5 @@
+This project was created as part of a personal initiative to experiment with creating a simple solution for routine tracking and AI. Development was assisted by ChatGPT, providing support in coding, logic structuring, and interface design.
+
 # SimpleBoard
 
 ## Overview
